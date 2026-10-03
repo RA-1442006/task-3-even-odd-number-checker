@@ -1,0 +1,61 @@
+================================================================================
+                    SAMPLE RUNS: EVEN AND ODD NUMBER CHECKER
+================================================================================
+
+Sample Session 1: Positive, Negative, Zero, and Large Numbers
+--------------------------------------------------------------------------------
+$ python main.py
+=============================================
+       Even and Odd Number Checker
+=============================================
+Enter any whole number to check if it is even or odd.
+Type 'q' at any time to quit.
+
+Enter a number (or 'q' to quit): 42
+Result: 42 is Even.
+
+Enter a number (or 'q' to quit): 17
+Result: 17 is Odd.
+
+Enter a number (or 'q' to quit): -4
+Result: -4 is Even.
+
+Enter a number (or 'q' to quit): -7
+Result: -7 is Odd.
+
+Enter a number (or 'q' to quit): 0
+Result: 0 is Even.
+
+Enter a number (or 'q' to quit): 1000000000000000000
+Result: 1000000000000000000 is Even.
+
+Enter a number (or 'q' to quit): q
+
+Thank you for using Even and Odd Number Checker. Goodbye!
+
+
+================================================================================
+Sample Session 2: Input Validation (Text, Decimals, and Recovery)
+--------------------------------------------------------------------------------
+$ python main.py
+=============================================
+       Even and Odd Number Checker
+=============================================
+Enter any whole number to check if it is even or odd.
+Type 'q' at any time to quit.
+
+Enter a number (or 'q' to quit): hello
+Invalid input! Please enter a valid whole number (integers only, no decimals or text).
+
+Enter a number (or 'q' to quit): 3.14
+Invalid input! Please enter a valid whole number (integers only, no decimals or text).
+
+Enter a number (or 'q' to quit): -12.5
+Invalid input! Please enter a valid whole number (integers only, no decimals or text).
+
+Enter a number (or 'q' to quit): 101
+Result: 101 is Odd.
+
+Enter a number (or 'q' to quit): Q
+
+Thank you for using Even and Odd Number Checker. Goodbye!
